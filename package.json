@@ -1,0 +1,14 @@
+{
+	"name": "lexii",
+	"version": "0.0.1",
+	"scripts": {
+		"client": "npm run dev --workspace=client",
+		"admin": "npm run start --workspace=admin"
+	},
+	"author": "Marco Chavez",
+	"license": "ISC",
+	"workspaces": [
+		"admin",
+		"client"
+	]
+}
